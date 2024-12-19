@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-resource-server
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://dev-7858070.okta.com/oauth2/default/v1/keys
+          issuer-uri: https://dev-7858070.okta.com/oauth2/default
